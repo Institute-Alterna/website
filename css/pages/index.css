@@ -1,0 +1,94 @@
+#header {
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#header img {
+    width: 30%;
+    max-width: 200px;
+}
+
+#header button {
+    background-color: var(--altGreen);
+    color: white;
+    padding: 10px 35px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#splashText {
+    align-content: flex-start;
+}
+
+#splashText h1 {
+    font-size: 31px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 45px;
+}
+
+#splashText h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+    margin: 0 0 1em 0;
+    color: var(--lightGray);
+}
+
+#splashText input {
+    width: 95%;
+    height: 3em;
+    background-color: var(--lighterGray);
+    border: none;
+}
+
+#splashText input::placeholder {
+    color: var(--pureWhite);
+    font-size: 2em;
+    padding-left: 10px;
+}
+
+#splashText .itemContainer {
+    background-color: var(--lighterGray);
+    width: 95%;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+/* TODO: Make input font size bigger, equal to the size of the placeholder. */
+
+#learnToCode {
+    background-color: var(--white);
+    padding: 20px 20px;
+    margin: 20px 0;
+    color: var(--black);
+    width: auto;
+}
+
+#learnToCode h2 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 2em;
+    margin: 0.1em 0 0.1em 0;
+}
+
+#learnToCode p {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.1em 0 0.1em 0;
+}
+
+#learnToCode .imgContainer {
+    order: 0;
+}
+
+/* TODO: Fit image between texts and make it responsive. */
+

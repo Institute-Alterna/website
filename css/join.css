@@ -1,0 +1,41 @@
+:root {
+    --black: #121212;
+    --altGreen: #44940A;
+    --altBrightGreen: #6CE714;
+    --lightGray: #8D8D8D;
+    --lighterGray: #999999;
+    --white: #D9D9D9;
+    --pureWhite: #FFFFFF;
+    --darkGray: #424242;
+}
+
+html body {
+    background-color: var(--black);
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+div a {
+    text-decoration: none;
+    color: var(--lighterGray);
+    animation: rise 2s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 2.5s;
+    opacity: 0;
+}
+
+@keyframes rise {
+    100% {
+        opacity: 1;
+    }
+}
+
+div a:hover {
+    color: var(--white);
+}
