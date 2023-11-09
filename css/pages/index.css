@@ -100,3 +100,9 @@ footer div img {
 footer div img:hover {
     opacity: 1;
 }
+
+/* hide all scrollbars on all platforms */
+* {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
